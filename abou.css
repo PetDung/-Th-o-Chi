@@ -1,0 +1,44 @@
+.about{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    position: relative;
+}
+.row-intro{
+    justify-content: space-around;
+}
+.line{
+    position: absolute;
+    height: 100px;
+    width: 2px;
+    background-color: black;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.intro{
+    flex: 1;
+}
+.intro h4 {
+    padding: 8px 0;
+}
+.other{
+    text-align: center;
+    flex: 1;
+}
+.other h2{
+    padding: 12px 0px;
+}
+.logo-other{
+    margin: 0 auto;
+}
+
+@media (max-width:740px){
+   .intro,.line{
+    display: none;
+   }
+}
+@media (min-width:740px){
+    .logo-other{
+     display: none;
+    }
+ }

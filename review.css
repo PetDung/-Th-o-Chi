@@ -1,0 +1,22 @@
+.review_content video{
+    width: 45%;
+}
+.conten,video{
+    padding-top: 24px ;
+}
+.conten{
+    letter-spacing: 4px;
+    line-height: 24px;
+}
+.review_content .video{
+    display: flex;
+    justify-content: center;
+}
+.review_content{
+    padding: 64px 6px;
+    margin-left:0px;
+    margin-right: 0px;
+}
+.review-1{
+    background-color: #f7941d;
+}

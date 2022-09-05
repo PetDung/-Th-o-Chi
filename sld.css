@@ -1,0 +1,9 @@
+.sld{
+    margin-top: 70px;
+    padding: 64px 0;
+    padding-top: 50%;
+    background-image: url(./img/slder.jpg);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
+}

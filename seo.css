@@ -1,0 +1,54 @@
+.seo{
+    background-color: #333;
+    padding: 64px 6px;
+}
+.seo_info{
+    margin: 24px 0;
+    text-align: center;
+    color: #fff;
+}
+.seo_title{
+    padding: 16px 0;
+}
+.seo_intro{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 4px;
+    padding: 8px 0;
+}
+.box-sp{
+    margin-bottom:4px ;
+}
+.box-sp_img{
+    max-width: 100%;
+}
+.box-sp_img img{
+    width: 100%;
+    display: block;
+}
+.box-sp_info{
+    background-color: #fff;
+    padding: 12px 12px;
+}
+.box-button-buy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-buy{
+    width: 100px;
+    height: 30px;
+    border:coral solid 2px;
+    border-radius:6px;
+    background-color: chocolate;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+    cursor: pointer;
+    transition: width .2s, height .2s;
+}
+.button-buy:hover {
+    width: 110px;
+}
